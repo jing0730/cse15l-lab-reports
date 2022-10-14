@@ -51,5 +51,27 @@ java WhereAmI
 
 On client, which is your computer, you should type in the command below
 
+$ ssh-keygen
+
+Then it should let you to enter the passphrase which is the format of (/Users/joe/.ssh/id_rsa) like shown below.
+![Image](10.png)
+Press enter when it shows :Enter file in which to save the key (/Users/joe/.ssh/id_rsa): and then type in the default path. Log in again on your computering using command:
+
+$ ssh cs15lfa22zz@ieng6.ucsd.edu
+
+with your password. Then on the remote server, type in the command: 
+mkdir .ssh. 
+Back to your computer type in :
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys.(with your own username)
+![Image](11.png)
+
+It should look like this without using the password.
+
+
+
+
+
+
+
 
 
