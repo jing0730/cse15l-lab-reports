@@ -67,6 +67,10 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 It should look like this without using the password.
 
+Optimizing Remote Running
+One way is to use semicolons to run multiple commands.
+![Image](12.png)
+
 
 
 
