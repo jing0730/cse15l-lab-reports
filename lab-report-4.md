@@ -1,6 +1,8 @@
 Part 1
 -Changing the name of the start parameter and it uses to base.
+
 /start<Enter>cgn base<Esc>n.n.n.:w<Enter>
+
 -use the command vim to open the file in terminal
 
 ![Image](4-1.png)
