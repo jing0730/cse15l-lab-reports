@@ -15,7 +15,9 @@ Part 1
 ![Image](4-6.png)
 
 Part 2
+
 -scp time:48 seconds
+
 -vim time:25 seconds
 
 Question:
